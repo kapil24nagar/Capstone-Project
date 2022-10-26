@@ -113,12 +113,12 @@ jobs:
 workflows:
   default:
     jobs:
-#      - install_lint
-#      - lint:
-#          requires: [install]
-#      - build-image:
-#          requires: [install_lint]
-      - deploy:
-#          requires: [build-image]
-          cluster-name: capstone12
-          aws-region: us-east-2
+     - install_lint
+     - lint:
+         requires: [install]
+     - build-image:
+         requires: [install_lint]
+     - deploy:
+        requires: [build-image]
+        cluster-name: capstone12
+        aws-region: us-east-2
