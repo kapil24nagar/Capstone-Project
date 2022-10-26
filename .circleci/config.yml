@@ -113,10 +113,10 @@ jobs:
 workflows:
   default:
     jobs:
-     - install_lint
+      - install_lint
 #      - lint:
          requires: [install]
-     - build-image:
+      - build-image:
          requires: [install_lint]
       - deploy:
          requires: [build-image]
