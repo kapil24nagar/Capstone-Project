@@ -103,7 +103,7 @@ jobs:
           name: Deploying application to EKS
           command: |
              aws eks --region us-east-2 update-kubeconfig --name capstone12
-             kubectl config use-context arn:aws:eks:us-east-2:751020218970:cluster/capstone12
+             kubectl config use-context arn:aws:eks:us-east-2:660944209123:cluster/capstone12
              kubectl apply -f deployment.yml
              kubectl get pods
              kubectl get services
