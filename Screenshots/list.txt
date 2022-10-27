@@ -1,0 +1,7 @@
+Screenshots shows
+Circle CI green pipeline, i.e., completing all the jobs.
+Docker Hub from showing the used image.
+EKS cluster
+EKS Nodes as EC2 instances
+Load balancer
+Application accessible from the browser.
