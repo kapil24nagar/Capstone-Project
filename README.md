@@ -1,3 +1,5 @@
+Git Repo : https://github.com/kapil24nagar/Capstone-Project.git
+
 This Capstone Project is the enhancement of the previously submitted project https://github.com/kapil24nagar/project-ml-microservice-kubernetes to use the AWS EKS instead of the locally installed Kubernetes cluster. 
 
 Requirements: 
