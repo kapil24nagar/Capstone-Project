@@ -116,9 +116,9 @@ workflows:
       - install_lint
 #      - lint:
 #          requires: [install]
-      - build-image:
-          requires: [install_lint]
-      - deploy:
-          requires: [build-image]
-          cluster-name: capstone
-          aws-region: us-east-2
+      # - build-image:
+      #     requires: [install_lint]
+      # - deploy:
+      #     requires: [build-image]
+      #     cluster-name: capstone
+      #     aws-region: us-east-2
